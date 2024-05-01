@@ -18,7 +18,7 @@ public class SistemaVentaEntradas {
 	 * @param pelicula
 	 * @return
 	 */
-	public boolean anyadirSala(int numero, String pelicula) {
+	public boolean añadirSala(int numero, String pelicula) {
 		
 		Sala nuevaSala = new Sala(numero, pelicula);
 		
